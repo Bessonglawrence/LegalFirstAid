@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "340457366609",
+    "firebase_url": "https://legal-first-aid.firebaseio.com",
+    "project_id": "legal-first-aid",
+    "storage_bucket": "legal-first-aid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340457366609:android:8412ca23e982f2bda10470",
+        "android_client_info": {
+          "package_name": "com.legalfirstaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340457366609-k24sivfu9ivmdb1d5bn6sl0isbg23h1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYttJxWbV6A3L4Xx5ejODDWNVRT6Huc34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340457366609-k24sivfu9ivmdb1d5bn6sl0isbg23h1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

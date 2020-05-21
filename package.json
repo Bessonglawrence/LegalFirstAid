@@ -1,0 +1,36 @@
+{
+  "name": "LegalFirstAid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.3",
+    "react": "16.8.6",
+    "react-native": "0.60.3",
+    "react-native-action-button": "^2.8.5",
+    "react-native-firebase": "^5.6.0",
+    "react-native-modals": "^0.19.9",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-storage": "^1.0.1",
+    "react-native-swiper": "^1.5.14",
+    "react-native-tab-view": "^2.11.0",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.4",
+    "@babel/runtime": "7.5.4",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.8.0",
+    "eslint": "6.0.1",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
