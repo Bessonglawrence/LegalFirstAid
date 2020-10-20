@@ -42,11 +42,11 @@ class Navigation extends Component {
                         title="Feeds" 
                         titleStyle={{color: 'white', fontSize:23}}
                         >   
-                        <Scene key="home" component={Home} hideNavBar={true} />  
+                        <Scene key="home" component={Home} hideNavBar={true} initial />  
                     </Scene>
 
                     <Scene key="notifications" component={Notifications} title="Notifications" navigationBarStyle={{ backgroundColor: '#00a8ff'}} titleStyle={{color: 'white'}}/> 
-                    <Scene key="settings" component={Settings} title="Settings" initial hideNavBar={true} /> 
+                    <Scene key="settings" component={Settings} title="Settings" hideNavBar={true} /> 
                     <Scene key="response" component={Response} title="Responses" titleStyle={{color: 'white'}} navigationBarStyle={{ backgroundColor: '#00a8ff'}}  /> 
                     <Scene key="profile" component={Profile} hideNavBar />
                 </Stack>

@@ -25,6 +25,8 @@ import {Feeds, ScrollItems} from './../../sections'
 
 import styles from './Home.style';
 import { TnC } from './../../components';
+var Parse = require('parse/react-native');
+
 
 
 export default class Home extends Component {
@@ -47,11 +49,24 @@ export default class Home extends Component {
     }
 
     componentDidMount(){
-      this.postsRef.once('value', snap => {
-          let posts = _obj2Arr(snap.val());
-          // console.log(posts)
-          this.setState({posts: posts})
-      }); 
+
+      // this.postsRef.once('value', snap => {
+      //     let posts = _obj2Arr(snap.val());
+      //     // console.log(posts)
+      //     this.setState({posts: posts})
+      // }); 
+
+      // GET - RETRIEVE DATA
+  		let query = new Parse.Query('Post');
+  		query.find()
+  			.then(posts => {
+  				console.warn(posts);
+  				//this.setState({posts: posts})
+  			})
+  			.catch(err => {
+  				alert('Failed to load posts with message ' + err.message);
+  			})
+      
     }
 
   	render() {

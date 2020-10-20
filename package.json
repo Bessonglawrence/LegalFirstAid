@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.3",
+    "parse": "^2.15.0",
+    "parse-react": "^0.5.2",
     "react": "16.8.6",
     "react-native": "0.60.3",
     "react-native-action-button": "^2.8.5",
